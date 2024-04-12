@@ -1,3 +1,0 @@
-com.example.aviatorsignals.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
