@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BetActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/aviator"/>
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="182dp"
+            android:layout_margin="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/multipler"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/oddsId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.5 X"
+                    android:fontFamily="@font/poppinsbold"
+                    android:layout_gravity="center"
+                    android:textSize="40sp"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:id="@+id/amountID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R50"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:layout_gravity="center"
+                    android:textSize="23sp"
+                    android:layout_marginTop="35dp"
+                    android:textColor="@color/white"/>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BET"
+                android:layout_margin="15dp"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+  </LinearLayout>

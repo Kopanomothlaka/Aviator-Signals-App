@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AviatorSignals" parent="Theme.Material3.DayNight.NoActionBar">
+        
+         <item name="colorPrimary">@color/red</item>
+        <item name="colorSecondary">@color/red</item>
+    </style>
+</resources>

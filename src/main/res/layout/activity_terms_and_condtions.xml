@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermsAndCondtions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/red"
+            android:textSize="19sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=     "
+                            1. Acceptance of Terms
+
+By downloading, accessing, or using the Aviator Signals gambling app , you agree to comply with and be bound by the following terms and conditions. If you do not agree to these terms, please do not use the App.
+
+2. Eligibility
+
+You must be of legal age as per the laws of your jurisdiction to use the App. By using the App, you confirm that you meet the eligibility requirements.
+
+3. Account Registration
+
+To use certain features of the App, you may be required to create an account. You agree to provide accurate and up-to-date information during the registration process and to keep your account credentials secure.
+
+4. User Conduct
+
+You agree not to engage in any activity that violates local, national, or international laws, or the terms outlined in this agreement. Prohibited activities include, but are not limited to, cheating, fraud, or any form of illegal gambling.
+
+5. Responsible Gambling
+
+Aviator Signals encourages responsible gambling. Users are responsible for managing their own gambling activities and should not engage in excessive or harmful gambling behavior. The App may provide tools for self-exclusion and limits to promote responsible gambling.
+
+6. Financial Transactions
+
+Users may deposit funds into their accounts for gambling purposes. All financial transactions are subject to the App's payment policies. Aviator Signals employs secure encryption methods to protect financial transactions, but users are advised to take precautions with their account information.
+
+7. Intellectual Property
+
+The App and its content are protected by intellectual property laws. Users may not reproduce, distribute, or use any content from the App without prior written consent from Aviator Signals.
+
+8. Termination
+
+Aviator Signals reserves the right to terminate or suspend user accounts for violation of these terms or any applicable laws. Users may also terminate their accounts at any time.
+
+9. Disclaimer of Warranty
+
+The App is provided as is without any warranty. Aviator Signals disclaims all warranties, whether express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.
+
+10. Limitation of Liability
+
+Aviator Signals shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of the App.
+
+11. Governing Law
+
+These terms and conditions are governed by and construed in accordance with the laws of [Your Jurisdiction].
+
+12. Changes to Terms
+
+Aviator Signals reserves the right to modify these terms at any time. Users are encouraged to review the terms periodically for updates.
+
+By using the Aviator Signals gambling app, you acknowledge that you have read, understood, and agreed to these terms and conditions.
+
+                            "
+
+
+
+                android:fontFamily="@font/poppiesregular"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+    </ScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/acceptId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="50dp"
+                android:text="ACCEPT"/>
+
+            <Button
+                android:id="@+id/decline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:hapticFeedbackEnabled="false"
+                android:text="DECLINE" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

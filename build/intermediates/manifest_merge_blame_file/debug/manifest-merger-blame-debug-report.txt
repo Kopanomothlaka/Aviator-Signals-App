@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aviatorsignals"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:7:5-79
+11-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:7:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:5-67
+12-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\kopan\.gradle\caches\transforms-3\ab80475af2f6748ede33dcc1d7c44185\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.aviatorsignals.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\kopan\.gradle\caches\transforms-3\ab80475af2f6748ede33dcc1d7c44185\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\kopan\.gradle\caches\transforms-3\ab80475af2f6748ede33dcc1d7c44185\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.aviatorsignals.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\kopan\.gradle\caches\transforms-3\ab80475af2f6748ede33dcc1d7c44185\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\kopan\.gradle\caches\transforms-3\ab80475af2f6748ede33dcc1d7c44185\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:5:5-33:19
+21        android:allowBackup="true"
+21-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\kopan\.gradle\caches\transforms-3\ab80475af2f6748ede33dcc1d7c44185\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:10:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:12:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.AviatorSignals" >
+32-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:13:9-52
+33        <activity
+33-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:15:9-17:40
+34            android:name="com.example.aviatorsignals.TermsAndCondtions"
+34-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:16:13-46
+35            android:exported="false" />
+35-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:17:13-37
+36        <activity
+36-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:18:9-20:40
+37            android:name="com.example.aviatorsignals.BetActivity"
+37-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:19:13-40
+38            android:exported="false" />
+38-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:20:13-37
+39        <activity
+39-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:21:9-23:40
+40            android:name="com.example.aviatorsignals.WelcomeActivity"
+40-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:22:13-44
+41            android:exported="false" />
+41-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:23:13-37
+42        <activity
+42-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:24:9-32:20
+43            android:name="com.example.aviatorsignals.MainActivity"
+43-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:25:13-41
+44            android:exported="true" >
+44-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:26:13-36
+45            <intent-filter>
+45-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:27:13-31:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:28:17-69
+46-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:28:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:30:17-77
+48-->E:\AviatorSignals\app\src\main\AndroidManifest.xml:30:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:11:9-20:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:12:13-84
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:13:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:14:13-16:85
+57                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingKtxRegistrar"
+57-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:15:17-132
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:16:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:17:13-19:85
+60                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+60-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:18:17-129
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\kopan\.gradle\caches\transforms-3\9d89d1a9154f153fdb6fd814be04f9f2\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:19:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\kopan\.gradle\caches\transforms-3\b05467eaffa0fa669b10a8a65677c2f8\transformed\firebase-abt-21.1.1\AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+63-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\kopan\.gradle\caches\transforms-3\b05467eaffa0fa669b10a8a65677c2f8\transformed\firebase-abt-21.1.1\AndroidManifest.xml:13:17-109
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\kopan\.gradle\caches\transforms-3\b05467eaffa0fa669b10a8a65677c2f8\transformed\firebase-abt-21.1.1\AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kopan\.gradle\caches\transforms-3\d9c8b35906a0c45bb16397dbcc66f677\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+66                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+66-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kopan\.gradle\caches\transforms-3\d9c8b35906a0c45bb16397dbcc66f677\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kopan\.gradle\caches\transforms-3\d9c8b35906a0c45bb16397dbcc66f677\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kopan\.gradle\caches\transforms-3\d9c8b35906a0c45bb16397dbcc66f677\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+69                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+69-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kopan\.gradle\caches\transforms-3\d9c8b35906a0c45bb16397dbcc66f677\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kopan\.gradle\caches\transforms-3\d9c8b35906a0c45bb16397dbcc66f677\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\8fb96093f53414f80fac12765449cbfd\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+72                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+72-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\8fb96093f53414f80fac12765449cbfd\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\8fb96093f53414f80fac12765449cbfd\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+75                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+75-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kopan\.gradle\caches\transforms-3\86aff519fc20991a3e87b2f2d6226576\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+78                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+78-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kopan\.gradle\caches\transforms-3\86aff519fc20991a3e87b2f2d6226576\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kopan\.gradle\caches\transforms-3\86aff519fc20991a3e87b2f2d6226576\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+80        </service>
+81
+82        <provider
+82-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+84            android:authorities="com.example.aviatorsignals.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kopan\.gradle\caches\transforms-3\5617eba08a7f52e139553cd6cf2377cc\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+88        <provider
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kopan\.gradle\caches\transforms-3\58dace9c7703ce1d1a5fa78c07b1ccdd\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kopan\.gradle\caches\transforms-3\58dace9c7703ce1d1a5fa78c07b1ccdd\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+90            android:authorities="com.example.aviatorsignals.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kopan\.gradle\caches\transforms-3\58dace9c7703ce1d1a5fa78c07b1ccdd\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kopan\.gradle\caches\transforms-3\58dace9c7703ce1d1a5fa78c07b1ccdd\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kopan\.gradle\caches\transforms-3\58dace9c7703ce1d1a5fa78c07b1ccdd\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kopan\.gradle\caches\transforms-3\58dace9c7703ce1d1a5fa78c07b1ccdd\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kopan\.gradle\caches\transforms-3\58dace9c7703ce1d1a5fa78c07b1ccdd\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kopan\.gradle\caches\transforms-3\f30b904dda5cade6a21652685542ad25\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kopan\.gradle\caches\transforms-3\f30b904dda5cade6a21652685542ad25\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kopan\.gradle\caches\transforms-3\f30b904dda5cade6a21652685542ad25\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+100                android:value="androidx.startup" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+101        </provider>
+102
+103        <meta-data
+103-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kopan\.gradle\caches\transforms-3\23f5ee5bc9e969a35b81a0ef4bcfa661\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kopan\.gradle\caches\transforms-3\23f5ee5bc9e969a35b81a0ef4bcfa661\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+105            android:value="@integer/google_play_services_version" />
+105-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kopan\.gradle\caches\transforms-3\23f5ee5bc9e969a35b81a0ef4bcfa661\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+106
+107        <service
+107-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\c5beea9d347088d381ea7136e34b320c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+108            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+108-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\c5beea9d347088d381ea7136e34b320c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+109            android:exported="false" >
+109-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\c5beea9d347088d381ea7136e34b320c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+110            <meta-data
+110-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\c5beea9d347088d381ea7136e34b320c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+111                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+111-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\c5beea9d347088d381ea7136e34b320c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+112                android:value="cct" />
+112-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\c5beea9d347088d381ea7136e34b320c\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+113        </service>
+114        <service
+114-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\81de5ef530f9c3911e3e674271cc255e\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+115            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+115-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\81de5ef530f9c3911e3e674271cc255e\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+116            android:exported="false"
+116-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\81de5ef530f9c3911e3e674271cc255e\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+117            android:permission="android.permission.BIND_JOB_SERVICE" >
+117-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\81de5ef530f9c3911e3e674271cc255e\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+118        </service>
+119
+120        <receiver
+120-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\81de5ef530f9c3911e3e674271cc255e\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+121            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+121-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\81de5ef530f9c3911e3e674271cc255e\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+122            android:exported="false" />
+122-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kopan\.gradle\caches\transforms-3\81de5ef530f9c3911e3e674271cc255e\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+123        <receiver
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+125            android:directBootAware="false"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+126            android:enabled="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+127            android:exported="true"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+128            android:permission="android.permission.DUMP" >
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kopan\.gradle\caches\transforms-3\3bfda38638845cc73529c8bf5018ed46\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+140            </intent-filter>
+141        </receiver>
+142    </application>
+143
+144</manifest>
